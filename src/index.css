@@ -1,0 +1,42 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+:root {
+  --background-color: #242424;
+
+  @apply font-sans;
+  color: white;
+  background-color: var(--background-color);
+}
+
+.landing-page {
+  @apply flex flex-col items-center justify-center w-1/2 gap-y-4;
+}
+
+div {
+  @apply flex;
+}
+
+h1 {
+  @apply text-4xl font-bold;
+}
+
+h2 {
+  @apply text-3xl;
+}
+
+p, li {
+  @apply text-lg;
+}
+
+button {
+  @apply text-lg text-white bg-primary hover:bg-secondary btn;
+}
+
+.mod-radial-progress {
+  @apply mx-4 my-2 radial-progress text-primary;
+  background-color: var(--background-color);
+  border: 6px solid var(--background-color);
+}

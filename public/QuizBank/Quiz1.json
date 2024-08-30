@@ -1,0 +1,33 @@
+{
+    "questions": [
+        {
+            "question": "Comically some long text here blah blah blah blah blah blah What's 9 + 10",
+            "answer": "21",
+            "options": [
+                "19",
+                "21",
+                "20",
+                "22"
+            ]
+        },
+        {
+            "question": "Who is Joe?",
+            "answer": "Joe Mama",
+            "options": [
+                "Ligma Balls",
+                "Joe Mama",
+                "Burat"
+            ]
+        },
+        {
+            "question": "What is Obama's last name?",
+            "answer": "Care",
+            "options":[
+                "Obama",
+                "Care",
+                "Biden",
+                "Trump"
+            ]
+        }
+    ]
+}
