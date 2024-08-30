@@ -1,5 +1,5 @@
 # Le Quizzer
-A simple quiz front-end, deployed link:
+A simple quiz front-end, deployed link: https://lscs-rnd-frontend-challenge.vercel.app/
 
 ### Features
 - Multiple Choice Questions stored in JSON format

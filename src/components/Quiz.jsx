@@ -17,7 +17,7 @@ function Quiz({ quizFile, exitQuiz }) {
         setCorrect(0);
     }
 
-    // setup questions, updates when game is reset
+    // setup questions, updates when isJoever is updated
     useEffect(() => {
         fetch(`../QuizBank/${quizFile}.json`)
             .then(response => response.json())

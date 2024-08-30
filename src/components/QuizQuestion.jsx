@@ -7,7 +7,6 @@ function Question({ questionNum, questionCount, questionObj, nextQuestion, exitQ
     // On the off chance the answer is not in the options
     // automatically credit it as a correct answer
     const validateAnswer = () => {
-        console.log(questionNum, selected, questionObj.answer);
         return questionObj.answer === selected || !questionObj.options.includes(questionObj.answer);
     }
 
